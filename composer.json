@@ -1,0 +1,73 @@
+{
+    "name": "tyhpdef/filament-filament-impl",
+    "description": "Implementation package for tyhpdef/filament-filament. Require tyhpdef/filament-filament, not this package.",
+    "keywords": [
+        "dev",
+        "static analysis",
+        "internal"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "5.8.2.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "tyhp": {
+            "interopContractVersion": 1,
+            "php-version": "8.2",
+            "require": {
+                "tyhpdef/php": "@dev",
+                "tyhpdef/laravel-framework": "@dev",
+                "tyhpdef/livewire-livewire": "@dev",
+                "tyhpdef/spatie-laravel-package-tools": "@dev",
+                "tyhpdef/filament-support": "@dev",
+                "tyhpdef/filament-schemas": "@dev",
+                "tyhpdef/filament-forms": "@dev",
+                "tyhpdef/filament-tables": "@dev",
+                "tyhpdef/pragmarx-google2fa-qrcode": "@dev",
+                "tyhpdef/chillerlan-php-qrcode": "@dev",
+                "tyhpdef/nette-php-generator": "@dev",
+                "tyhpdef/danharrin-livewire-rate-limiting": "@dev",
+                "tyhpdef/pragmarx-google2fa": "@dev",
+                "tyhpdef/filament-actions": "@dev",
+                "tyhpdef/filament-notifications": "@dev",
+                "tyhpdef/filament-infolists": "@dev",
+                "tyhpdef/filament-widgets": "@dev"
+            },
+            "package": {
+                "include": [
+                    "./_tyhpdef/*.tyhpdef",
+                    "./_tyhpdef/extensions/*.tyhpdef"
+                ],
+                "overlay": [
+                    "./_tyhpdef/overlays/stubs/*.tyhpdef",
+                    "./_tyhpdef/overlays/*.tyhpdef"
+                ]
+            },
+            "public": "tyhpdef/filament-filament"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "filament/filament": "5.8.2"
+    },
+    "require-dev": {
+        "tyhpdef/php": "@dev",
+        "tyhpdef/laravel-framework": "@dev",
+        "tyhpdef/livewire-livewire": "@dev",
+        "tyhpdef/spatie-laravel-package-tools": "@dev",
+        "tyhpdef/filament-support": "@dev",
+        "tyhpdef/filament-schemas": "@dev",
+        "tyhpdef/filament-forms": "@dev",
+        "tyhpdef/filament-tables": "@dev",
+        "tyhpdef/pragmarx-google2fa-qrcode": "@dev",
+        "tyhpdef/chillerlan-php-qrcode": "@dev",
+        "tyhpdef/nette-php-generator": "@dev",
+        "tyhpdef/danharrin-livewire-rate-limiting": "@dev",
+        "tyhpdef/pragmarx-google2fa": "@dev",
+        "tyhpdef/filament-actions": "@dev",
+        "tyhpdef/filament-notifications": "@dev",
+        "tyhpdef/filament-infolists": "@dev",
+        "tyhpdef/filament-widgets": "@dev"
+    }
+}
